@@ -1,5 +1,5 @@
 <h1>Accept my Proposal (Mini Project using HTML, CSS & JS</h1>
-<p>you can see this website directly - <a href="https://prathameshvattamwar.github.io">Click Here to see</a></p>
+<p>you can see this website directly - <a href="https://prathameshvattamwar.github.io/propose">Click Here to see</a></p>
 <br><br>
 <p>follow me for more mini project ideas - <a href="https://github.com/prathameshvattamwar">click to follow</a> </p>
 <br><br>
