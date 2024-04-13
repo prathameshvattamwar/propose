@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #8a2be2, #4b0082);
+  overflow: hidden;
+}
+
+/* pannel 1 styles */
+
+.pannel1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.pannel1 input {
+  padding: 10px;
+  font-size: 16px;
+  width: 250px;
+  outline: none;
+  border-radius: 8px;
+  background: transparent;
+  color: #fff;
+}
+
+.pannel1 input::placeholder {
+  color: #999;
+}
+
+.pannel1 .btn {
+  padding: 10px 20px;
+}
+
+.btn {
+  padding: 10px 40px;
+  border: 2px solid #fff;
+  background: transparent;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* pannel 2 styles */
+
+.pannel2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: #fff;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.pannel2 .greeting {
+  font-family: "Pacifico", cursive;
+  font-size: 26px;
+}
+
+.pannel2 h1 {
+  font-family: "Cinzel", serif;
+  font-size: 60px;
+}
+
+.pannel2 .que {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.pannel2 .que img {
+  width: 150px;
+}
+
+.pannel2 .shy-gifs {
+  position: relative;
+  width: 150px; 
+  height: 150px; 
+  overflow: hidden;
+}
+
+.shy-gifs img {
+    display: none;
+    max-width: 200px; 
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.shy-gifs img.active {
+    display: block;
+}
+
+.pannel2 h3 {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-size: 30px;
+  background: rgba(0, 0, 0, 0.23);
+  padding: 5px 50px;
+  border-radius: 10px;
+  box-shadow: inset 3px 3px 5px #000;
+}
+
+.pannel2 .btns {
+  margin-top: 50px;
+}
+
+.pannel2 .btns .btn {
+  margin: 10px;
+}
+
+.pannel2 .btns .btn:last-child {
+  background-color: #fff;
+  color: #000;
+}
+
+/* pannel 3 styles */
+
+.pannel3 {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.pannel3 h1 {
+  font-family: "Cinzel", serif;
+  font-size: 60px;
+}
+
+footer{
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    color: rgb(158, 158, 158);
+    width: 100%;
+}
+
+footer p{
+    font-size: 14px;
+}
+
+@media screen and (max-width: 767px) {
+  .pannel2 h1,
+  .pannel3 h1 {
+    font-size: 30px;
+  }
+  .pannel2 .greeting {
+    font-size: 20px;
+  }
+  .pannel2{
+    padding-top: 60px !important;
+  }
+  footer{
+    bottom: 10px;
+  }
+  footer p{
+    font-size: 12px;
+  }
+}
+
+
